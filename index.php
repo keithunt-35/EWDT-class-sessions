@@ -106,7 +106,11 @@
     }
     pri();
 
-
+    // other variables like $server
+    echo $_SERVER ['SERVER_NAME'];
+    print("<br>");
+    echo $_SERVER ['SCRIPT_FILENAME'];
+    print("<br>");
 
 
 
