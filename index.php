@@ -81,8 +81,32 @@
 
     // string length
     $str = 'ksgsnds';
+    print("<br>");
     print(strlen($str));
+    print("<br>");
+
     print(stripos($str, 's'));
+    print("<br>");
+    print("<br>");
+
+    //global variables
+    $name = "praise";
+    //super global variables can be accessed anywhere
+    // can use the Global keyword
+    #global $name;
+    #echo $name;
+    function pri(){
+
+        $name = "keith";
+        echo $GLOBALS['name'];
+        print("<br>");
+
+        print($name);
+        print("<br>");
+    }
+    pri();
+
+
 
 
 
