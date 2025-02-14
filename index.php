@@ -111,7 +111,13 @@
     print("<br>");
     echo $_SERVER ['SCRIPT_FILENAME'];
     print("<br>");
+    // post and get will be addressed in the next class
 
+    //cookies
+    // for infor about a particular user kept in the browser
+    // created using the setCookie  function
+    // for the cookie function to be valid it should appear before the html tag
+    
 
 
     ?>
