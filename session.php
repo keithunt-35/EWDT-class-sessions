@@ -8,5 +8,8 @@ session_start();
             // Set session variables
             $_SESSION["user"] = "Nasser";
             $_SESSION["email"] = "";
+            //must first load the page that has the session_start() function
+            echo $user;
         ?>
+    </body>
 </html>
