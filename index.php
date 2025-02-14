@@ -49,6 +49,23 @@
         print("<br>");
     }
 
+    //associative array
+    $marks2 = array("maths"=>10, "english"=>20, "kiswahili"=>30, "science"=>60);
+    print_r($marks2);
+    foreach($marks2 as $key=>$value){
+        //beaceuse we are using an associative array we have to use the key value pair
 
+        print($key."=>".$value);
+        print("<br>");
+    }
+    //we concatnate using the dot operator
+    
+    //multi dimensional arrays
+
+    //Functions
+    function addNums($a, $b){
+        return $a+$b;
+    }
+    print(addNums(5,9));
 
     ?>
