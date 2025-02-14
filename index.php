@@ -2,6 +2,8 @@
     
     changed
     <?php
+    
+
     echo "hello world";
     print ("hello students");
     #this is a comment
@@ -66,6 +68,22 @@
     function addNums($a, $b){
         return $a+$b;
     }
+    include('lesson1.php');
+    //include and require handle the same tasks
+    //the only difference is in how the error is handled esp when the file that is refered to is not avaiilable
+    
+    //require('lesson1.php');
+    
+    print("<br>");
     print(addNums(5,9));
+    print("<br>");
+    print(mulNum(5,7));
+
+    // string length
+    $str = 'ksgsnds';
+    print(strlen($str));
+    print(stripos($str, 's'));
+
+
 
     ?>
