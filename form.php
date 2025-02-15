@@ -7,7 +7,7 @@
 </head>
 <body>
     <h2>Sample HTML Form</h2><br>
-    <form action = "form_process" method="post">
+    <form action = "form_process.php" method="post">
         <!--Text field-->
         <label for="name">Name:</label>
         <input type="text" id="name" name="name" required><br><br>
