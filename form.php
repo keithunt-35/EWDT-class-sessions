@@ -6,8 +6,8 @@
     <title>HTML form example</title>
 </head>
 <body>
-    <h2>Sample HTML Form</h2>
-    <form action="form process" method="post">
+    <h2>Sample HTML Form</h2><br>
+    <form action = "form_process" method="post">
         <!--Text field-->
         <label for="name">Name:</label>
         <input type="text" id="name" name="name" required><br><br>
@@ -41,7 +41,22 @@
 
         <!--Radio buttons -->
         <label for="gender">Gender</label>
-        <input type="radio
+        <input type="radio" id="male" name="gender" value="male"><label for="male">Male</label>
+        <input type="radio" id="male" name="gender" value="female"><label for="female">Female</label><br><br>
+
+        <!--checkboxes-->
+        <label >
+            <input type="checkbox" name="subscribe" id="subscribe" name="subcribe" value="yes">Subscribe:
+        </label><br><br>
+
+        <!--text area-->
+        <label for="message">Message</label><br>
+        <textarea name="message" id="message" cols="30" rows="10"></textarea><br><br>
+
+        <!--submit button-->
+        <input type="submit" value="Submit">
+
+
 
 
     </form>
